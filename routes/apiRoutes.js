@@ -1,7 +1,11 @@
-const { createNewNote, filterById, deleteNote } = require("../lib/notes");
+
+// functions required are stored in the lib
+// router method is added to express
+const { createNewNote, filterById} = require("../lib/notes");
 const router = require("express").Router();
 const notes = require("../data/data.json");
 
+// api routes
 router.get("/notes", (req, res) => {
   res.json(notes);
 });
@@ -18,4 +22,5 @@ router.get("/notes/:id", (req, res) => {
   }
 });
 
+// api routes are exported
 module.exports = router;
