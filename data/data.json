@@ -1,6 +1,17 @@
 [
   {
-    "title": "Test Title",
-    "text": "Test text"
+    "title": "saa",
+    "text": "asas",
+    "id": "0"
+  },
+  {
+    "workout": "4",
+    "length": "30 mins",
+    "id": "1"
+  },
+  {
+    "workout": "5",
+    "length": "30 mins",
+    "id": "2"
   }
 ]
