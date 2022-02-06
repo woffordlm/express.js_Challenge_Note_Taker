@@ -1,7 +1,7 @@
 // this tells the page that we are using express
 // variables are created to set up routes 
 const express = require("express");
-const PORT = process.env.PORT || 3002;
+const PORT = process.env.PORT || 3005;
 const apiRoutes = require('./routes/apiRoutes');
 const htmlRoutes = require ('./routes/htmlRoutes')
 const app = express();
