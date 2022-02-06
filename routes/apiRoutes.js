@@ -11,6 +11,7 @@ router.get("/notes", (req, res) => {
 });
 router.post("/notes", (req, res) => {
   const newNote = createNewNote(req.body, notes);
+  notes.push(newNote)
   res.json(newNote);
 });
 router.get("/notes/:id", (req, res) => {
