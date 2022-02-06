@@ -8,5 +8,20 @@
     "title": "cultivate block 3",
     "text": "should take about 2 hours",
     "id": "1"
+  },
+  {
+    "workout": "6",
+    "length": "30 mins",
+    "id": "2"
+  },
+  {
+    "workout": "6",
+    "length": "30 mins",
+    "id": "3"
+  },
+  {
+    "workout": "7",
+    "length": "30 mins",
+    "id": "4"
   }
 ]
